@@ -15,29 +15,27 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-style: normal;
+  color: #FFFFFF;
 }
 
 .landing__logo {
   font-family: "Josefin Sans", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 26px;
   /* identical to box height, or 54% */
   letter-spacing: 4.8px;
   text-transform: uppercase;
-  color: #FFFFFF;
 }
 
 .landing__text {
   font-family: "Josefin Sans", sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
   /* identical to box height, or 118% */
   letter-spacing: 6.82px;
-  color: #FFFFFF;
 }
 
 .form-search {
@@ -53,7 +51,6 @@
   border: none;
   margin: 0px;
   font-family: "Josefin Sans", sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 26px;
@@ -76,7 +73,6 @@
   border: none;
   margin: 0px;
   font-family: "Aleo", serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 26px;
@@ -84,7 +80,15 @@
   text-align: center;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  color: #FFFFFF;
+}
+
+.scroll-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+  letter-spacing: 2.8px;
 }
 
 .nav {
@@ -134,4 +138,99 @@
 a {
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.section--about {
+  height: 685px;
+  color: #FFFFFF;
+  background-image: url(/images/city.png);
+  font-style: normal;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info--about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 560px;
+}
+
+.heading--about {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  line-height: 26px;
+  /* identical to box height, or 72% */
+}
+
+.text--about {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  letter-spacing: 1.6px;
+  color: #E8E8E8;
+}
+
+.btn--explore {
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  background-color: #5474FD;
+  color: #FFFFFF;
+  border: none;
+  height: 63px;
+  width: 228px;
+}
+
+.img--about {
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.img--lake {
+  width: 350px;
+  height: 220px;
+  margin: 10px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.img--mountains {
+  width: 350px;
+  height: 220px;
+  margin: 10px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+header {
+  max-width: 1773px;
+  width: 100%;
+}
+
+body {
+  max-width: 1773px;
+  width: 100%;
 }
