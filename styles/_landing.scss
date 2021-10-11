@@ -55,6 +55,11 @@
     color: #999999;
 }
 
+.input-search:focus {
+    color: #333333;
+    font-weight: bold;
+}
+
 .btn-search {
     background-color: fonts.$color-blue;
     min-height: 5vh;
@@ -70,6 +75,10 @@
     letter-spacing: 1.4px;
     text-transform: uppercase;
     color: fonts.$txt-color;
+}
+
+.btn-search:hover, .btn-search:active {
+    background-color: rgb(209, 102, 41);
 }
 
 .fa-search {
@@ -93,6 +102,3 @@
 }
 
 
-@media screen and (max-width: 800px) {
-    
-}

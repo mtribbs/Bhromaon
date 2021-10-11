@@ -37,9 +37,6 @@
     font-family: fonts.$main-sans;
     font-style: normal;
     font-weight: normal;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-around;
 }
 
 .card__heading--small {
@@ -82,4 +79,8 @@
     color: fonts.$txt-color;
     border: none;
     margin: 5%;
+}
+
+.card__btn:hover, .card__btn:active {
+    background-color: rgb(209, 102, 41);
 }

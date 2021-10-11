@@ -64,3 +64,11 @@ a {
     color: fonts.$txt-color;
     text-decoration: none;
 }
+
+a:visited {
+    color: rgb(241, 187, 156);
+}
+
+a:hover {
+    color: rgb(209, 102, 41);
+}

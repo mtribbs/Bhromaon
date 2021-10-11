@@ -32,30 +32,28 @@
             </div>
         </div>
         <nav class="nav">
-
-                <h3 class="nav__logo">Bhromaon</h3>
+            <h3 class="nav__logo">Bhromaon</h3>
             <ul class="nav__list">
                 <li class="nav__item"><a href="#about">Who we are</a></li>
-                <li class="nav__item"><a href="">What we do</a></li>
-                <li class="nav__item"><a href="">Travel with us</a></li>
-                <li class="nav__item"><a href="">Contact us</a></li>
+                <li class="nav__item"><a href="#travel">What we do</a></li>
+                <li class="nav__item"><a href="#book">Travel with us</a></li>
+                <li class="nav__item"><a href="#testimony">Contact us</a></li>
             </ul>
                 <input type="checkbox" id="click">
                 <label for="click" class="menu-btn">
                     <i class="far fa-map"></i>
                 </label>
-                <div class="dropdown-list">
-                    <li class="nav__item drop-item"><a href="">Who we are</a></li>
-                    <li class="nav__item drop-item"><a href="">What we do</a></li>
-                    <li class="nav__item drop-item"><a href="">Travel with us</a></li>
-                    <li class="nav__item drop-item"><a href="">Contact us</a></li>
-                </div>
-
+            <div class="dropdown-list">
+                <li class="nav__item drop-item"><a href="#aboutus">Who we are</a></li>
+                <li class="nav__item drop-item"><a href="#traveling">What we do</a></li>
+                <li class="nav__item drop-item"><a href="#booking">Travel with us</a></li>
+                <li class="nav__item drop-item"><a href="#tourist">Contact us</a></li>
+            </div>
         </nav>
     </header>
     <main>
         <div class="section--about" id="about">
-            <div class="info--about">
+            <div class="info--about" id="aboutus">
                 <h3 class="heading--about">Why Choose Us</h3>
                 <div class="text--about">
                     <p>Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, 
@@ -76,8 +74,8 @@
                     <use xlink:href="images/shape.svg#shape"></use>
                 </svg>
             </div>
-            <div class="info--travel">
-                <div class="section--travel">
+            <div class="info--travel" id="travel">
+                <div class="section--travel" id="traveling">
                     <svg class="search-svg" width="58" height="57" viewbox="0 0 58 57">
                         <use xlink:href="images/search2.svg#search2"></use>
                     </svg>
@@ -100,8 +98,8 @@
                 </div>
             </div>
         </div>
-        <div class="container--spain spain--one">
-            <div class="card--spain card--spain--one">
+        <div class="container--spain spain--one" id="book">
+            <div class="card--spain card--spain--one" id="booking">
                 <p class="card__heading--small">Spain</p>
                 <h3 class="card__heading--large">Grand Spain Madrid</h3>
                 <p class="card__text">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account 
@@ -118,8 +116,8 @@
                 <button class="card__btn">Book now</button>
             </div>
         </div>
-        <div class="container--testimony">
-                <h3 class="heading--testimony"> What Our  Tourist Say</h3>
+        <div class="container--testimony" id="testimony">
+                <h3 class="heading--testimony" id="tourist"> What Our  Tourist Say</h3>
             <div class="card--testimony">
                 <picture class="pic--testimony">
                     <source media="(max-width: 400px)" srcset="/images/tourist-smallest.png">
@@ -140,11 +138,11 @@
         <h3 class="footer__logo">Bhromaon</h3>
         <p class="footer__text">Safe Travel Anywhere</p>
         <ul class="footer__icons">  
-            <li class="footer__icon"><i class="fab fa-facebook-f"></i></li>
-            <li class="footer__icon"><i class="fab fa-twitter"></i></li>
-            <li class="footer__icon"><i class="fab fa-linkedin-in"></i></li>
-            <li class="footer__icon"><i class="fab fa-youtube"></i></li>
-            <li class="footer__icon"><i class="fab fa-pinterest"></i></li>
+            <li class="footer__icon"><a href="https://facebook.com/" target="blank" class="fab fa-facebook-f"></a></li>
+            <li class="footer__icon"><a href="https://twitter.com/" target="blank" class="fab fa-twitter"></a></li>
+            <li class="footer__icon"><a href="https://linked-in.com/" target="blank" class="fab fa-linkedin-in"></a></li>
+            <li class="footer__icon"><a href="https://youtube.com/" target="blank" class="fab fa-youtube"></a></li>
+            <li class="footer__icon"><a href="https://pinterest.com/" target="blank" class="fab fa-pinterest"></a></li>
         </ul>
     </footer>
 </body>

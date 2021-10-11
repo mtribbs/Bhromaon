@@ -69,6 +69,11 @@
   color: #999999;
 }
 
+.input-search:focus {
+  color: #333333;
+  font-weight: bold;
+}
+
 .btn-search {
   background-color: #5474FD;
   min-height: 5vh;
@@ -84,6 +89,10 @@
   letter-spacing: 1.4px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+.btn-search:hover, .btn-search:active {
+  background-color: #d16629;
 }
 
 .fa-search {
@@ -190,6 +199,14 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #f1bb9c;
+}
+
+a:hover {
+  color: #d16629;
+}
+
 .section--about {
   height: 685px;
   color: #FFFFFF;
@@ -246,6 +263,10 @@ a {
   border: none;
   height: 63px;
   max-width: 230px;
+}
+
+.btn--about:hover, .btn--about:active {
+  background-color: #d16629;
 }
 
 .img--about {
@@ -484,6 +505,10 @@ a {
   margin: 5%;
 }
 
+.card__btn:hover, .card__btn:active {
+  background-color: #d16629;
+}
+
 .container--testimony {
   background-image: url(/images/tourist-background.png);
   height: 731px;
@@ -618,6 +643,19 @@ a {
 
 .fa-linkedin-in {
   color: #5474FD;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #f1bb9c;
+}
+
+.footer__icon:hover {
+  color: #d16629;
 }
 
 @media screen and (max-width: 800px) {

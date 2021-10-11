@@ -46,6 +46,10 @@
     max-width: 230px;
 }
 
+.btn--about:hover, .btn--about:active {
+    background-color: rgb(209, 102, 41);
+}
+
 .img--about {
     width: 450px;
     display: flex;
