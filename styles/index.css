@@ -72,13 +72,18 @@
 .input-search:focus {
   color: #333333;
   font-weight: bold;
+  background-color: #f1bb9c;
+}
+
+.input-search:hover {
+  background-color: #f1bb9c;
 }
 
 .btn-search {
   background-color: #5474FD;
   min-height: 5vh;
   width: 30%;
-  border: 3px solid white;
+  border: 3px solid #FFFFFF;
   margin: 0px;
   font-family: "Aleo", serif;
   font-weight: normal;
