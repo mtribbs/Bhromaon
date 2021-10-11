@@ -44,3 +44,109 @@
           height: auto;
       }
 }
+
+@media screen and (max-width: 415px) {
+    .landing {
+        background-image: url(/images/landing-small.png);
+        height: 80vh;
+    }
+    .landing__logo {
+        font-size: 38px;
+        height: auto;
+    }
+    .landing__text {
+        letter-spacing: 3px;
+    }
+    .form-search {
+        display: none;
+    }
+    .form-small {
+        display: inline-flex;
+        width: 70vw;
+        height: 8vh;
+    }
+    .nav__logo {
+        font-size: 18px;
+        position: absolute;
+    }
+    .nav__list{
+        display: none;
+    }
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+    .menu-btn {
+        display: block;
+    }
+    #click:checked ~ .dropdown-list{
+        display: block;
+    }     
+    .section--about {
+        height: auto;
+        flex-direction: column;
+    }
+    .btn--about {
+        font-size: 14px;
+        height: 5vh;
+        width: 50vw;
+    }
+    .heading--about {
+        font-size: 28px;
+    }
+    .img--lake, .img--mountains {
+        width: 50vw;
+    }
+    .shape--travel {
+        transform: scale(0.3);
+        margin: 0px;
+    }
+    .check-svg, .search-svg, .like-svg {
+        transform: scale(0.7);
+    }
+    .section--travel {
+        max-width: 20vw;
+    }
+    .text--travel {
+        font-size: 20px;
+        text-align: center;
+    }
+    .container--spain {
+        height: auto;
+    }
+    .spain--one {
+        background-image: url(/images/house-small.png);
+    }
+    .spain--two {
+        background-image: url(/images/cliffs-small.png);
+    }
+    .card--spain {
+        display: flex;
+        flex-direction: column;
+    }
+    .card__btn {
+        font-size: 14px;
+        width: 35vw;
+        height: 8vh;
+        align-self: center;
+    }
+    .heading--testimony {
+        font-size: 28px;
+    }
+    .card--testimony {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10vh;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer__logo {
+        font-size: 20px;
+    }
+    .footer__text {
+        font-size: 14px;
+        margin: 0px;
+    }
+}

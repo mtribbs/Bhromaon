@@ -44,6 +44,10 @@
   width: 50%;
 }
 
+.form-small {
+  display: none;
+}
+
 .input-search {
   width: 70%;
   min-height: 5vh;
@@ -156,6 +160,31 @@
   margin: 10px;
 }
 
+.menu-btn {
+  display: none;
+  position: absolute;
+  right: 50px;
+}
+
+#click {
+  display: none;
+}
+
+.dropdown-list {
+  display: none;
+  list-style-type: none;
+  width: 100vw;
+  position: relative;
+  top: 180px;
+  background-color: #5474FD;
+  text-align: center;
+  height: auto;
+}
+
+.drop-item {
+  padding: 20px;
+}
+
 a {
   color: #FFFFFF;
   text-decoration: none;
@@ -205,7 +234,7 @@ a {
   color: #E8E8E8;
 }
 
-.btn--explore {
+.btn--about {
   font-family: "Aleo", serif;
   font-size: 16px;
   line-height: 26px;
@@ -657,7 +686,167 @@ a {
     height: auto;
   }
 }
+@media screen and (max-width: 415px) {
+  .landing {
+    background-image: url(/images/landing-small.png);
+    height: 80vh;
+  }
+
+  .landing__logo {
+    font-size: 38px;
+    height: auto;
+  }
+
+  .landing__text {
+    letter-spacing: 3px;
+  }
+
+  .form-search {
+    display: none;
+  }
+
+  .form-small {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 70vw;
+    height: 8vh;
+  }
+
+  .nav__logo {
+    font-size: 18px;
+    position: absolute;
+  }
+
+  .nav__list {
+    display: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  #click:checked ~ .dropdown-list {
+    display: block;
+  }
+
+  .section--about {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .btn--about {
+    font-size: 14px;
+    height: 5vh;
+    width: 50vw;
+  }
+
+  .heading--about {
+    font-size: 28px;
+  }
+
+  .img--lake, .img--mountains {
+    width: 50vw;
+  }
+
+  .shape--travel {
+    -webkit-transform: scale(0.3);
+            transform: scale(0.3);
+    margin: 0px;
+  }
+
+  .check-svg, .search-svg, .like-svg {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+
+  .section--travel {
+    max-width: 20vw;
+  }
+
+  .text--travel {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .container--spain {
+    height: auto;
+  }
+
+  .spain--one {
+    background-image: url(/images/house-small.png);
+  }
+
+  .spain--two {
+    background-image: url(/images/cliffs-small.png);
+  }
+
+  .card--spain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .card__btn {
+    font-size: 14px;
+    width: 35vw;
+    height: 8vh;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+
+  .heading--testimony {
+    font-size: 28px;
+  }
+
+  .card--testimony {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10vh;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+  .footer__logo {
+    font-size: 20px;
+  }
+
+  .footer__text {
+    font-size: 14px;
+    margin: 0px;
+  }
+}
 body {
   max-width: 1770px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }

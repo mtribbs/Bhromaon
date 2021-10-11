@@ -36,6 +36,30 @@
     margin: 10px;
 }
 
+.menu-btn {
+    display: none;
+    position: absolute;
+    right: 50px;
+}
+
+#click {
+    display: none;
+}
+
+.dropdown-list {
+    display: none;
+    list-style-type: none;
+    width: 100vw;
+    position: relative;
+    top: 180px;
+    background-color: fonts.$color-blue;
+    text-align: center;
+    height: auto;
+}
+.drop-item {
+    padding:20px;
+}
+
 a {
     color: fonts.$txt-color;
     text-decoration: none;

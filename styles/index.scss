@@ -13,5 +13,7 @@
 body{
     max-width: 1770px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 

@@ -22,19 +22,35 @@
                 <input class="input-search" type="text" placeholder="Search Your Travel Destination">
                 <button class="btn-search" type="submit">Search<i class="fas fa-search"></i></button>
             </form>
+            <form class="form-small">
+                <input class="input-search" type="text" placeholder="Search">
+                <button class="btn-search" type="submit"><i class="fas fa-search"></i></button>
+            </form>
             <div class="landing__scroll">
                 <p class="scroll-text">Scroll Down</p>
                 <i class="fas fa-chevron-down"></i>
             </div>
         </div>
         <nav class="nav">
-            <h3 class="nav__logo">Bhromaon</h3>
+
+                <h3 class="nav__logo">Bhromaon</h3>
             <ul class="nav__list">
-                <li class="nav__item"><a href="#about">Who we are</a</li>
+                <li class="nav__item"><a href="#about">Who we are</a></li>
                 <li class="nav__item"><a href="">What we do</a></li>
                 <li class="nav__item"><a href="">Travel with us</a></li>
                 <li class="nav__item"><a href="">Contact us</a></li>
             </ul>
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="far fa-map"></i>
+                </label>
+                <div class="dropdown-list">
+                    <li class="nav__item drop-item"><a href="">Who we are</a></li>
+                    <li class="nav__item drop-item"><a href="">What we do</a></li>
+                    <li class="nav__item drop-item"><a href="">Travel with us</a></li>
+                    <li class="nav__item drop-item"><a href="">Contact us</a></li>
+                </div>
+
         </nav>
     </header>
     <main>
@@ -47,9 +63,7 @@
                     <p>Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, 
                         that.</p>
                 </div>
-                <div class="btn--about">
-                <button class="btn--explore">Explore places</button> 
-                </div>
+                <button class="btn--about">Explore places</button> 
             </div>
             <div class="img--about">
                 <img class="img--lake" src="/images/lake.png" alt="A house by a lake">
@@ -64,7 +78,7 @@
             </div>
             <div class="info--travel">
                 <div class="section--travel">
-                    <svg width="58" height="57" viewbox="0 0 58 57">
+                    <svg class="search-svg" width="58" height="57" viewbox="0 0 58 57">
                         <use xlink:href="images/search2.svg#search2"></use>
                     </svg>
                     <p class="text--travel">Search places</p>
@@ -79,7 +93,7 @@
                     <p class="text--travel">Select places</p>
                 </div>
                 <div class="section--travel">
-                    <svg width="62" height="59" viewbox="0 0 62 59">
+                    <svg class="like-svg" width="62" height="59" viewbox="0 0 62 59">
                         <use xlink:href="images/like.svg#like"></use>
                     </svg>
                     <p class="text--travel">Book & Enjoy</p>
@@ -108,6 +122,7 @@
                 <h3 class="heading--testimony"> What Our  Tourist Say</h3>
             <div class="card--testimony">
                 <picture class="pic--testimony">
+                    <source media="(max-width: 400px)" srcset="/images/tourist-smallest.png">
                     <source media="(max-width: 800px)" srcset="/images/tourist-smaller.png">
                     <img class="img-testimony" src="/images/tourist-small.png" alt="Person with backpack standing in front of mountains">
                 </picture>
