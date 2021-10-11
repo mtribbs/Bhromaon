@@ -1,0 +1,57 @@
+
+.container--testimony {
+    background-image: url(/images/tourist-background.png);
+    height: 731px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.heading--testimony {
+    font-family: fonts.$main-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+    /* identical to box height, or 72% */
+    color: fonts.$txt-color;
+}
+
+.card--testimony {
+    background-color: #333333;
+    display: flex;
+    max-width: 1100px;
+}
+
+.img--testimony {
+    width: 445px;
+    height: 284px;
+}
+
+.info--testimony {
+    font-family: fonts.$main-sans;
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+.name--testimony {
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+    text-transform: uppercase;
+    color: #FEFEFE;
+}
+
+.fa-quote-left{
+    color: fonts.$color-blue;
+}
+
+.text--testimony {
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: fonts.$txt-grey;
+}
