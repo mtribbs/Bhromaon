@@ -279,6 +279,150 @@ a {
   color: #E8E8E8;
 }
 
+.container--spain {
+  height: 700px;
+}
+
+.spain--one {
+  background-image: url(/images/house.png);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 18% 33% 50%;
+  grid-template-columns: 18% 33% 50%;
+  -ms-grid-rows: 35% 65%;
+  grid-template-rows: 35% 65%;
+}
+
+.spain--one > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.spain--one > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.spain--one > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.spain--one > *:nth-child(4) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+.spain--one > *:nth-child(5) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+
+.spain--one > *:nth-child(6) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+}
+
+.spain--two {
+  background-image: url(/images/cliffs.png);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
+  -ms-grid-rows: 35% 65%;
+  grid-template-rows: 35% 65%;
+}
+
+.spain--two > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.spain--two > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.spain--two > *:nth-child(3) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+.spain--two > *:nth-child(4) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+
+.card--spain--one {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/span 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/span 1;
+}
+
+.card--spain--two {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/span 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/span 1;
+}
+
+.card--spain {
+  width: 540px;
+  height: 371px;
+  background-color: #232323;
+  opacity: 0.9;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.card__heading--small {
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height, or 130% */
+  letter-spacing: 1.5px;
+  color: #E8E8E8;
+  margin-left: 20px;
+}
+
+.card__heading--large {
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height, or 130% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+
+.card__text {
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #E8E8E8;
+  max-width: 508px;
+  margin-left: 20px;
+}
+
+.card__btn {
+  background-color: #5474FD;
+  width: 228px;
+  height: 63px;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  margin: 20px;
+}
+
 header {
   max-width: 1773px;
   width: 100%;

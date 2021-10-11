@@ -1,0 +1,83 @@
+
+.container--spain {
+    height: 700px;
+}
+
+.spain--one {
+    background-image: url(/images/house.png);
+    display: grid;
+    grid-template-columns: 18% 33% 50%;
+    grid-template-rows: 35% 65%;
+}
+
+.spain--two {
+    background-image: url(/images/cliffs.png);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 35% 65%;
+}
+
+.card--spain--one {
+    grid-row: 2 / span 1;
+    grid-column: 2 /span 1;
+}
+
+.card--spain--two {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+}
+
+.card--spain {
+    width: 540px;
+    height: 371px;
+    background-color: #232323;
+    opacity: 0.9;
+    font-family: fonts.$main-sans;
+    font-style: normal;
+    font-weight: normal;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-around;
+}
+
+.card__heading--small {
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+    letter-spacing: 1.5px;
+    color: fonts.$txt-grey;
+    margin-left: 20px;
+}
+
+.card__heading--large {
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+    text-transform: uppercase;
+    color: fonts.$txt-color;
+    margin-left: 20px;
+}
+
+.card__text {
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: fonts.$txt-grey;
+    max-width: 508px;
+    margin-left: 20px;
+}
+
+.card__btn {
+    background-color: fonts.$color-blue;
+    width: 228px;
+    height: 63px;
+    font-family: fonts.$main-serif;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: fonts.$txt-color;
+    border: none;
+    margin: 20px;
+}
