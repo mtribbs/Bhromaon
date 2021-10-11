@@ -496,6 +496,67 @@ a {
   color: #E8E8E8;
 }
 
+.footer {
+  height: 371px;
+  background-color: #232323;
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__logo {
+  color: #FFFFFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  /* identical to box height, or 108% */
+  letter-spacing: 3.36px;
+  text-transform: uppercase;
+}
+
+.footer__text {
+  color: #FFFFFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  letter-spacing: 1.6px;
+}
+
+.footer__icons {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #E8E8E8;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  letter-spacing: 1.6px;
+}
+
+.footer__icon {
+  margin: 5px;
+}
+
+.fa-linkedin-in {
+  color: #5474FD;
+}
+
 header {
   max-width: 1773px;
   width: 100%;
