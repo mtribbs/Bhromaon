@@ -1,0 +1,72 @@
+
+.landing {
+    min-height: 737px; /*remove/change later*/
+    background-image: url(/images/landing-img.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing__logo {
+    font-family: fonts.$main-sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    /* identical to box height, or 54% */
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    color: fonts.$txt-color;
+}
+
+.landing__text {
+    font-family: fonts.$main-sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height, or 118% */
+    letter-spacing: 6.82px;
+    color: fonts.$txt-color;
+}
+
+.form-search {
+    display: inline-flex;
+}
+
+.input-search {
+    width: 503px; /*remove/change later*/
+    height: 63px;
+    border: none;
+    margin: 0px;
+    font-family: fonts.$main-sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.8px;
+    color: #999999;
+}
+
+.btn-search {
+    background-color: fonts.$color-blue;
+    height: 63px;
+    width: 150px;
+    border: none;
+    margin: 0px;
+    font-family: fonts.$main-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: fonts.$txt-color;
+}
