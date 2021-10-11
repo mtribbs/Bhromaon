@@ -13,8 +13,7 @@
 .info--about {
     display: flex;
     flex-direction: column;
-    max-width: 560px;
-    
+    width: 45%;
 }
 
 .heading--about {
@@ -44,7 +43,7 @@
     color: fonts.$txt-color;
     border: none;
     height: 63px;
-    width: 228px;
+    max-width: 230px;
 }
 
 .img--about {
@@ -55,13 +54,11 @@
 
 .img--lake {
     width: 350px;
-    height: 220px;
     margin: 10px;
     align-self: flex-start;
 }
 .img--mountains {
     width: 350px;
-    height: 220px;
     margin: 10px;
     align-self: flex-end;
 }

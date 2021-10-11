@@ -1,0 +1,46 @@
+
+@media screen and (max-width: 800px) {
+       .form-search {
+            width: 70%;
+       }
+       .img--lake, .img--mountains {
+            align-self: center;
+            width: 60%;
+       }
+       .info--about {
+           width: 60%;
+           margin-left: 5vw;
+       }
+       .bar--travel {
+           height: auto;
+       }
+      .shape--travel {
+          transform: scale(0.6);
+      }
+      .text--travel {
+          font-size: 28px;
+      }
+      .spain--one {
+        background-image: url(/images/house-medium.png);
+      }
+      .spain--two {
+          background-image: url(/images/cliffs-medium.png);
+      }
+      .container--spain {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      .card--spain {
+          height: auto;
+      }
+      .container--testimony {
+          background-image: url(/images/tourist-background-medium.png);
+      }
+      .name--testimony {
+        margin-bottom: 0px;
+      }
+      .footer {
+          height: auto;
+      }
+}

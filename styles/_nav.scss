@@ -1,11 +1,12 @@
 
 .nav {
-    width: 100%;
+    height: 10vh;
     background-color: fonts.$color-blue;
     color: fonts.$txt-color;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .nav__list {

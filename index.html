@@ -18,14 +18,13 @@
         <div class="landing">
             <h2 class="landing__logo">Bhromaon</h2>
             <p class="landing__text">Safe Travel Anywhere</p> 
-            <div class="landing__search">
-                <form class="form-search" action="">
-                    <input class="input-search" type="text" placeholder="Search Your Travel Destination">
-                    <button class="btn-search" type="submit">Search</button>
-                </form>
-            </div>
+            <form class="form-search">
+                <input class="input-search" type="text" placeholder="Search Your Travel Destination">
+                <button class="btn-search" type="submit">Search<i class="fas fa-search"></i></button>
+            </form>
             <div class="landing__scroll">
                 <p class="scroll-text">Scroll Down</p>
+                <i class="fas fa-chevron-down"></i>
             </div>
         </div>
         <nav class="nav">
@@ -108,7 +107,10 @@
         <div class="container--testimony">
                 <h3 class="heading--testimony"> What Our  Tourist Say</h3>
             <div class="card--testimony">
-                <img class="img-testimony" src="/images/tourist-small.png" alt="Person with backpack standing in front of mountains">
+                <picture class="pic--testimony">
+                    <source media="(max-width: 800px)" srcset="/images/tourist-smaller.png">
+                    <img class="img-testimony" src="/images/tourist-small.png" alt="Person with backpack standing in front of mountains">
+                </picture>
                 <div class="info--testimony">
                     <h5 class="name--testimony">Sam Sumon</h5>
                     <p class="text--testimony"><i class="fas fa-quote-left"></i>But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain 

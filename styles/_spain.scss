@@ -1,19 +1,21 @@
 
 .container--spain {
-    height: 700px;
+    min-height: 700px;
 }
 
 .spain--one {
     background-image: url(/images/house.png);
+    background-size: cover;
     display: grid;
-    grid-template-columns: 18% 33% 50%;
+    grid-template-columns: 18% 32% 50%;
     grid-template-rows: 35% 65%;
 }
 
 .spain--two {
     background-image: url(/images/cliffs.png);
+    background-size: cover;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 32% 18%;
     grid-template-rows: 35% 65%;
 }
 
@@ -28,7 +30,7 @@
 }
 
 .card--spain {
-    width: 540px;
+    max-width: 530px;
     height: 371px;
     background-color: #232323;
     opacity: 0.9;
@@ -46,7 +48,7 @@
     /* identical to box height, or 130% */
     letter-spacing: 1.5px;
     color: fonts.$txt-grey;
-    margin-left: 20px;
+    margin-left: 5%;
 }
 
 .card__heading--large {
@@ -55,7 +57,7 @@
     /* identical to box height, or 130% */
     text-transform: uppercase;
     color: fonts.$txt-color;
-    margin-left: 20px;
+    margin-left: 5%;
 }
 
 .card__text {
@@ -63,8 +65,8 @@
     line-height: 26px;
     /* or 162% */
     color: fonts.$txt-grey;
-    max-width: 508px;
-    margin-left: 20px;
+    max-width: 90%;
+    margin-left: 5%;
 }
 
 .card__btn {
@@ -79,5 +81,5 @@
     text-transform: uppercase;
     color: fonts.$txt-color;
     border: none;
-    margin: 20px;
+    margin: 5%;
 }

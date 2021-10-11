@@ -5,16 +5,13 @@
 @import 'nav';
 @import 'about';
 @import 'travel';
-@import 'booking';
+@import 'spain';
 @import 'testimony';
 @import 'footer';
+@import 'mediaqueries';
 
-header {
-    max-width: 1773px;
+body{
+    max-width: 1770px;
     width: 100%;
 }
 
-body {
-    max-width: 1773px;
-    width: 100%;
-}
